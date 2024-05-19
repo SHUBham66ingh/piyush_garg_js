@@ -17,5 +17,15 @@ let age=21
 age=22
 console.log(age)
 
+if(true)
+    {
+        var rank=1
+    }
+console.log(rank);
+
+// scope of const is local
+const a=22
+console.log(a)
+
 
 
