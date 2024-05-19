@@ -5,11 +5,20 @@ console.log(num1+num2)
 
 // strings
 let firtsName="shubham"
-const lastName="singh"
+let lastName="singh"
 console.log(firtsName+ " " + lastName)
 
 // booleans
 let isLoggedIn=true
 let lastLoggedIn=null
 console.log(lastLoggedIn);
+
+// objects
+const person= {
+    firtsName: 'shubham',
+    lastName: 'singh',
+    age:22,
+    isLoggedIn:false,
+}
+
 
