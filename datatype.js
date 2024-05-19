@@ -18,7 +18,8 @@ const person= {
     firtsName: 'shubham',
     lastName: 'singh',
     age:22,
-    isLoggedIn:false,
+    isLoggedIn: false,
 }
 
+console.log(person)
 
