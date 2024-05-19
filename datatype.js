@@ -27,4 +27,5 @@ const person= {
 // false=0
 // true=1
 console.log(person);
+console.log(typeof(person));
 
