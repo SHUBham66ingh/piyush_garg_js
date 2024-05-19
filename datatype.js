@@ -10,5 +10,6 @@ console.log(firtsName+ " " + lastName)
 
 // booleans
 let isLoggedIn=true
-console.log(isLoggedIn);
+let lastLoggedIn=null
+console.log(lastLoggedIn);
 
