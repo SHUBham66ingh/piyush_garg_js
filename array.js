@@ -5,5 +5,4 @@ console.log(students[0]);
 
 
 students.push("doku");
-students.pull();
 console.log(students);
