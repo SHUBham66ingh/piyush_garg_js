@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
     <title>dom - query selector</title>
+    <style>
+      .red-color{
+        color:red;
+      }  
+    </style>
 </head>
 
 <body>
@@ -16,11 +21,12 @@
     </div>
 <script>
    
-const ele = document.querySelectorAll(".block");
-ele.forEach((e) => {
-    console.log(e.innerHTML);
-});
-
+// const ele = document.querySelectorAll(".block");
+// ele.forEach((e) => {
+//     console.log(e.innerHTML);
+// });
+const el= document.getElementById("username");
+console.log(el.innerText);
 </script>
 </body>
 </html>
