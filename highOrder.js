@@ -2,6 +2,7 @@ function add(a,  b , cb)
 {
     let result = a+b;
     cb(result);
+    return () => console.log(result);
 }
 
 add(2,7,(val) => console.log(val));
