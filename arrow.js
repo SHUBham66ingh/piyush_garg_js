@@ -7,5 +7,7 @@ const add=(a,b)=>{
 }
 
 const sub=(a,b)=> a-b
-console.log(2,2)
+
+console.log(sub(4,2))
+console.log(add(2,2))
 sayHello();
