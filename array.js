@@ -11,6 +11,6 @@ const students=['aman'  , 'john'  , 'virat' , 'bill'];
 // students.push("doku");
 // students.push("siri");
 // console.log(students);
-students.pop();
-console.log(students.indexOf("bill"))
-console.log(students);
+// students.pop();
+// console.log(students.indexOf("bill"))
+// console.log(students);
