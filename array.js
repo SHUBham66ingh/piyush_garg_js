@@ -1,5 +1,8 @@
 // arrays
 const students=['aman'  , 'john'  , 'virat' , 'bill'];
+const marks=[1,2,3,4,5];
+
+const myArray =[ 1, true , 'shubham'];
 students[0]="shubham"
 console.log(students[0]);
 
