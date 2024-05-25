@@ -26,3 +26,13 @@ const say=() =>{
     console.log("hello")
 }
 
+const obj ={
+    value: 20,
+    myFunction: function()
+    {
+        console.log("value is " + this.value);
+    },
+};
+
+obj.myFunction();
+
