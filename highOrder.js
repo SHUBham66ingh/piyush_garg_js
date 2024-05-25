@@ -4,4 +4,4 @@ function add(a,  b , cb)
     cb(result);
 }
 
-console.log(add(2,3));
+add(2,7,(val) => console.log(val));
