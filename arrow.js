@@ -1,5 +1,11 @@
 const sayHello = ()=>{
     console.log("say hello")
+};
+
+const add=(a,b)=>{
+    return a+b;
 }
 
-sayHello()
+const sub=(a,b)=> a-b
+console.log(2,2)
+sayHello();
