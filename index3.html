@@ -5,7 +5,10 @@
     <style>
       .red-color{
         color:red;
-      }  
+      } 
+      .underline{
+         text-decoration: underline;
+      } 
     </style>
 </head>
 
@@ -26,7 +29,9 @@
 //     console.log(e.innerHTML);
 // });
 const el= document.getElementById("username");
-console.log(el.innerText);
+el.classList.add("red-color" , "underline");
+console.log(el.classList);
+
 </script>
 </body>
 </html>
