@@ -5,4 +5,5 @@ console.log(students[0]);
 
 
 students.push("doku");
+students.push("siri");
 console.log(students);
