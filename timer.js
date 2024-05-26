@@ -1,7 +1,4 @@
-const button = document.getElementById('stp-btn')
-
-
-
+const button = document.getElementById('stop-btn')
 
 function showTime()
 {
@@ -11,4 +8,8 @@ function showTime()
   
 }
 
-setInterval( showTime , 1000)
+let interval=setInterval( showTime , 1000);
+
+button.addEventListener("click"  , ()=>{
+       clearInterval(interval);
+})
