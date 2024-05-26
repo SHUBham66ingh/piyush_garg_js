@@ -15,7 +15,7 @@ function sendAutoEmail(to)
  {
     return function(body)
     {
-        console.log(`sending email to ${to}  with subject ${subject}: #{body}`);
+        console.log(`sending email to ${to}  with subject ${subject}: ${body}`);
     }
  }
 }
