@@ -22,11 +22,14 @@
     <p class="paragraph">here is a code for you</p>
     <pre><code>console.log('hey there')</code></pre>
     </div>
-<button onclick="console.log('hi clicked')">click me</button>
+<button id="clickButton">click me</button>
 
    
 <script>
-    
+const el = document.getElementById("clickButton");
+el.addEventListener('click' , function(){
+    console.log("i am clicked");
+});
 </script>
 </body>
 </html>
