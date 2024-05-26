@@ -18,18 +18,25 @@
     </nav>
 
     <div class="block">
-        <h4>hey there i am shubham <span class="red-color" id="username">messi</span></h4>
+        <h4 id="name-block">hey there i am shubham <span class="red-color" id="username">messi</span></h4>
     <p class="paragraph">here is a code for you</p>
     <pre><code>console.log('hey there')</code></pre>
     </div>
-<button id="clickButton">click me</button>
+    <div id="my-Container">
+
+    </div>
+<button id="clickButton">CLICK ME</button>
 
    
 <script>
-const el = document.getElementById("clickButton");
-el.addEventListener('click' , function(){
-    console.log("i am clicked");
-});
+ const button= document.getElementById("clickButton");
+ const container=document.getElementById("my-Container")
+ button.addEventListener("click" , ()=>{
+    const el=document.createElement("h1");
+    el.innerText='shubham singh'
+    container.appendChild(el);
+ })
+
 </script>
 </body>
 </html>
