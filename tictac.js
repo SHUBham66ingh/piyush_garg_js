@@ -14,8 +14,14 @@ if(
   (  arr[0]!==null  && arr[0]==arr[4]  && arr[4]==arr[8]) ||
   (  arr[2]!==null  && arr[2]==arr[4]  && arr[4]==arr[6]) 
 ){
-    document.write(`winner is ${currentPlayer}`)
+    document.write(`WINNER IS ${currentPlayer}`)
+    return ;
 }
+ if(!arr.some(e=>e===null))
+    {
+        document.write(`GAME IS DRAW`);
+        return ;
+    }
 
 }
 
