@@ -5,3 +5,7 @@
 
 
 (()=> console.log("i am es6"))();
+
+
+const value=(() =>100)();
+console.log(value);
