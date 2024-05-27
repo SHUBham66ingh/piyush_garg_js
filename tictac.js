@@ -22,7 +22,9 @@ if(
 
 function handleClick(el)
 {
+
     const id= Number(el.id);
+    if(arr[id] != null) return ;
     arr[id] = currentPlayer;
     el.innerText = currentPlayer;
     checkWinner();
